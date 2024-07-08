@@ -22,6 +22,9 @@
    - **Total Client Balance**: Displays the total balance across all clients.
 7. **Exit**: Exits the application.
 
+Note
+This project focuses on the integration of various functions to manage bank client information. Validating correct inputs was not the main focus, so there might be some validation issues. Future improvements could include more robust input validation and error handling.
+
 ## File Descriptions
 
 1. **BankMain.cpp**:
@@ -55,9 +58,13 @@
    cd BankClientManager
 
 2.**Compile the source code**:
-   g++ BankMain.cpp FuncDef.cpp -o BankMain
+
+```g++ BankMain.cpp FuncDef.cpp -o BankMain```
 
 3.**Run the executable**:
-   ./BankMain
+```.\BankMain```
+
+4.**Follow the On-Screen Instructions to navigate through the menu.**
+
 
 
