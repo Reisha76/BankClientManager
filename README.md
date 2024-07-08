@@ -53,3 +53,11 @@
    ```sh
    git clone https://github.com/YourUsername/BankClientManager.git
    cd BankClientManager
+
+2.**Compile the source code**:
+   g++ BankMain.cpp FuncDef.cpp -o BankMain
+
+3.**Run the executable**:
+   ./BankMain
+
+
