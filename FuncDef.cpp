@@ -74,7 +74,7 @@ void PrintAllClientsData(vector <stClientData> vClients)
     cout << "\n------------------------------------------------------------------------------------------------------------" << endl;
 
     if (vClients.size() == 0)
-        cout << "\t\t\t\t No clients available.";
+        cout << "\n\t\t\t\t No clients available.\n";
 
     for (stClientData& Client : vClients)
     {
@@ -408,11 +408,7 @@ bool DeleteClientByAccountNumber(string AccountNumber, vector <stClientData>& vC
             return true;
         }
     }
-    else
-    {
-        //cout << "Client with account number (" << AccountNumber << ") is not found!";
         return false;
-    }
 
 }
 
@@ -487,12 +483,7 @@ bool UpdateClientByAccountNumber(string AccountNumber, vector <stClientData>& vC
             return true;
         }
     }
-    else
-    {
-        //cout << "\n Client with account number (" << AccountNumber << ") is not found!";
         return false;
-    }
-
 }
 
 void ProgramEndScreen()
@@ -580,11 +571,7 @@ bool DepositMoney()
             }
 
     }
-    else
-    {
-        //cout << "\n Client with account number (" << AccountNumber << ") is not found!";
         return false;
-    }
 }
 
 bool WithdrawMoney()
@@ -626,11 +613,7 @@ bool WithdrawMoney()
         }
 
     }
-    else
-    {
-        //cout << "\n Client with account number (" << AccountNumber << ") is not found!";
         return false;
-    }
 }
 
 void ShowTotalBalance()
